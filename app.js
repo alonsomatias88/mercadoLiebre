@@ -1,8 +1,9 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const port = process.env.port || 2020;
 
-app.listen(2020, () => console.log("Server is running on LocalHost 2020"));
+app.listen(port, () => console.log("Server is running on LocalHost:" + port));
 
 app.get("/", (req, res) =>
   res.sendFile(path.resolve(__dirname, "./views/home.html"))
