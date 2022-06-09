@@ -1,0 +1,41 @@
+main {
+  background-color: #ebebeb;
+}
+
+#fieldsetLogin {
+  width: 90vw;
+  margin: auto;
+}
+
+#fieldsetLogin section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#formularios {
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#formularios input {
+  padding: 1rem 0.5rem;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+#botones {
+  justify-content: center;
+  margin: 0.75rem 0;
+}
+
+#botones button {
+  padding: 0.5rem;
+  background-color: #1259c3;
+  border-radius: 0.5rem;
+  color: white;
+  width: 100%;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+}

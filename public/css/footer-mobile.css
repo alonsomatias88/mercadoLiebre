@@ -1,0 +1,23 @@
+footer {
+  text-align: center;
+  width: 90vw;
+  margin: auto;
+}
+
+footer p {
+  color: #666;
+}
+
+footer h4 {
+  color: #666;
+}
+
+footer section {
+  margin: 2rem 0;
+}
+
+footer section i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #1259c3; /*celeste*/
+}

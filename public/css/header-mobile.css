@@ -1,0 +1,62 @@
+header {
+  background-color: #eac926; /*amarillo*/
+  padding: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+
+#logo {
+  width: 45%;
+}
+
+#busqueda {
+  background-color: #fff;
+  padding: 5px 3px;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  justify-content: space-between;
+  column-gap: 2px;
+}
+
+#buscador {
+  flex-grow: 1;
+  width: 1rem;
+}
+
+#lupa {
+  color: #666; /*gris oscuro*/
+  background-color: #fff;
+  width: 1rem;
+  align-self: flex-end;
+}
+
+#cuotas {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+#site-navbar {
+  display: none;
+}
+
+#login-navbar {
+  display: none;
+}
+
+#burger {
+  width: 100%;
+  text-align: center;
+}
+
+#burger a {
+  background-color: #03264c; /*azul*/
+  color: white;
+  padding: 5px 8px;
+  border-radius: 8px;
+}

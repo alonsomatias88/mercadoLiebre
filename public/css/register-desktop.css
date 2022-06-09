@@ -1,0 +1,9 @@
+@media (min-width: 769px) {
+  main {
+    margin: auto;
+  }
+
+  #fieldsetRegister {
+    max-width: 800px;
+  }
+}

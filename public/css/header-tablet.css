@@ -1,0 +1,36 @@
+@media (min-width: 361px) {
+  #logo {
+    width: 31%;
+  }
+
+  #busqueda {
+    width: 31%;
+  }
+
+  #cuotas {
+    width: 31%;
+    text-align: center;
+  }
+
+  #site-navbar {
+    display: flex;
+    width: 45%;
+    font-size: 12px;
+    text-align: center;
+    justify-content: space-between;
+    flex-grow: 0.4;
+  }
+
+  #login-navbar {
+    display: flex;
+    width: 50%;
+    font-size: 12px;
+    text-align: center;
+    justify-content: space-between;
+    flex-grow: 0.4;
+  }
+
+  #burger {
+    display: none;
+  }
+}

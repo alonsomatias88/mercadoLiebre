@@ -1,0 +1,17 @@
+@media (min-width: 769px) {
+  main {
+    margin: auto;
+  }
+
+  #fieldsetLogin {
+    max-width: 800px;
+  }
+
+  #botones button {
+    transition: all 0.5s;
+  }
+
+  #botones button:hover {
+    background-color: #0022aa;
+  }
+}

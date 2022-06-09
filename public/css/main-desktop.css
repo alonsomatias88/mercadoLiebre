@@ -1,0 +1,35 @@
+@media (min-width: 769px) {
+  .grilla {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .titulares {
+    grid-column: 1 / 5;
+  }
+
+  .articulos {
+    box-shadow: none;
+    transition: all 0.5s;
+  }
+
+  .articulos:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .descripcion {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+
+  .articulos:hover .descripcion {
+    opacity: 1;
+  }
+
+  .envios {
+    transition: all 0.5s;
+  }
+
+  .envios:hover {
+    transform: rotate(-0.25turn);
+  }
+}

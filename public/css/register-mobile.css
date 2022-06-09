@@ -1,0 +1,79 @@
+main {
+  background-color: #ebebeb;
+}
+
+#fieldsetRegister {
+  width: 90vw;
+  margin: auto;
+}
+
+#fieldsetRegister section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#formularios {
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#formularios input {
+  padding: 1rem 0.5rem;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+#formularios h4 {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+#circulos {
+  align-items: center;
+  margin: 1rem 0;
+  justify-content: space-between;
+  width: 13rem;
+}
+
+#circulos label {
+  font-weight: 300;
+}
+
+#circulos h4 {
+  font-weight: 400;
+  width: 100%;
+}
+
+#cajas {
+  align-items: center;
+  margin: 1rem 0;
+  justify-content: space-between;
+  width: 15rem;
+}
+
+#cajas label {
+  font-weight: 300;
+  width: 90%;
+}
+
+#cajas h4 {
+  width: 100%;
+  font-weight: 400;
+}
+
+#botones {
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
+
+#botones button {
+  padding: 0.4rem 0.5rem;
+  background-color: #1259c3;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+  width: 45%;
+}

@@ -1,0 +1,23 @@
+@media (min-width: 769px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  footer section {
+    width: 33%;
+  }
+
+  #derechos {
+    width: 100%;
+    text-align: left;
+  }
+
+  footer section i {
+    transition: all 0.5s;
+  }
+  footer section i:hover {
+    color: #03264c;
+  }
+}

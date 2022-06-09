@@ -1,0 +1,83 @@
+main {
+  background-color: #ebebeb;
+}
+
+main section {
+  text-align: center;
+  width: 90vw;
+  margin: auto;
+}
+
+#banner {
+  width: 100vw;
+  margin-left: 0;
+}
+
+#banner img {
+  width: 100%;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.titulares {
+  font-size: 24px;
+  color: #666;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.articulos {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.articulos img {
+  width: 100%;
+}
+
+.articulos section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 100%;
+  text-align: left;
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  background-color: #ffffff;
+  position: relative; /*Lo uso para ubicar el camión de envios*/
+}
+
+.precios {
+  font-size: 18px;
+  flex-grow: 0.3;
+}
+
+.descuentos {
+  font-size: 16px;
+  color: #39b54a;
+  flex-grow: 0.7;
+}
+
+.descripcion {
+  display: none;
+}
+
+.envios {
+  display: block;
+  color: #39b54a;
+  background-color: #fff;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: #39b54a 1px solid;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  top: -15px;
+}
