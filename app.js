@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const port = process.env.port || 2020;
+const port = process.env.PORT || 2020;
 
 app.listen(port, () => console.log("Server is running on LocalHost:" + port));
 
