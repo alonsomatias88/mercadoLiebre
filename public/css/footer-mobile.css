@@ -21,3 +21,8 @@ footer section i {
   margin-bottom: 10px;
   color: #1259c3; /*celeste*/
 }
+
+#derechos {
+  width: 100%;
+  text-align: left;
+}
